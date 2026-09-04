@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# ⚡ Tournament Auction Pro
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A premium, real-time sports tournament management system designed to automate auctions, scheduling, and standings. Built with **React Native** and powered by **Firebase** for sub-second synchronization.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Key Features
 
+### 🔨 Real-Time Auction Room
+- **Automatic Bidding**: Simplified one-tap bidding with pre-defined increments.
+- **Smart Timer**: Countdown clock that resets on every bid to keep the competition alive.
+- **Auto-Sold/Unsold**: Intelligent round closure that processes results the moment the timer hits zero.
+- **Anonymous Team Logic**: Secure bidding for team managers using simple team keys, without complex account setup.
+
+### 🗓️ Advanced Tournament Scheduling
+- **Format Support**: League (Round Robin), Knockout Brackets, and Mixed formats.
+- **Automatic Progression**: Knockout winners automatically advance to the next round's TBD slots.
+- **Fixture Generation**: One-click auto-scheduling for full season fixtures.
+
+### 📊 Dynamic Standings & Stats
+- **Live Points Table**: Real-time updates with automated Tie-breaker calculations (NRR for Cricket, GD for Football).
+- **Player Stats Tracker**: Comprehensive tracking for runs, wickets, goals, and assists.
+- **Manual Overrides**: Admin controls for correcting points or manual match adjustments.
+
+---
+
+## 📦 Getting Started
+
+1. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. **Start the app**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📖 User Workflow
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Admin Setup**: Create a tournament, add teams, and populate the player pool.
+2. **Launch Auction**: Open the Auction Room. Teams log in using their **Team Key**.
+3. **Conduct Bidding**: Players are processed sequentially. The system handles all sales and wallet deductions automatically.
+4. **Auto-Schedule**: Use the 'Auto-Schedule' feature to generate fixtures for the sold squads.
+5. **Score Matches**: Enter results as they happen. Watch the Points Table and brackets update in real-time.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🤝 Contributing
 
-```bash
-npm run reset-project
-```
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue for feature requests.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📄 License
+This project is licensed under the MIT License.
